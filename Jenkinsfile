@@ -5,11 +5,11 @@ pipeline{
     }
     agent any
     stages{
-        stage('checkout'){
+        /*stage('checkout'){
             steps{
                 git 'https://github.com/edureka-git/DevOpsClassCodes.git'
             }
-        }
+        }*/
         stage('compile'){
             steps{
                bat 'mvn compile'
